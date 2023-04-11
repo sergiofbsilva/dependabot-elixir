@@ -1,0 +1,21 @@
+version: 2
+
+registries:
+  - package-ecosystem: "mix"
+    directory: "/"
+    # Check for updates once a week
+    schedule:
+      interval: "weekly"
+      time: "22:00"
+      timezone: "Europe/Lisbon"
+    registries:
+      - github
+    insecure-external-code-execution: allow 
+    target-branch: "main"
+    open-pull-requests-limit: 5
+    pull-request-branch-name:
+      separator: "-"
+    rebase-strategy: "disabled"
+    ignore:
+      - dependency-name: "*"
+        update-types: ["version-update:semver-major"]
