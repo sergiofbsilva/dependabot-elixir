@@ -1,6 +1,6 @@
 version: 2
 
-registries:
+updates:
   - package-ecosystem: "mix"
     directory: "/"
     # Check for updates once a week
