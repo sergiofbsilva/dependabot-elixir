@@ -8,8 +8,6 @@ updates:
       interval: "weekly"
       time: "22:00"
       timezone: "Europe/Lisbon"
-    registries:
-      - github
     insecure-external-code-execution: allow 
     target-branch: "main"
     open-pull-requests-limit: 5
