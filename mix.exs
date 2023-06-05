@@ -40,7 +40,7 @@ defmodule MyApi.MixProject do
       {:jason, "~> 1.1"},
       {:mox, "~> 0.5", only: :test},
       {:new_relic_agent, "~> 1.27.7"},
-      {:phoenix, "~> 1.5.5"},
+      {:phoenix, "~> 1.7.3"},
       {:plug_cowboy, "~> 2.1"},
       {:postgrex, "~> 0.15"},
       {:telemetry, "~> 0.4"},
